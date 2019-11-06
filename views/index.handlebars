@@ -5,13 +5,13 @@
     <form action="/{{this.id}}?_method=DELETE" method="POST">
       {{#each burgers}}
         
-          <p>{{this.id}}. {{this.burger_name}}  <button type="submit" class="btn btn-warning btn-xs" id="devour">Devour</button></p>        
+          <p>{{this.id}}. {{this.burger_name}}  <button type="submit" class="btn btn-submit btn-xs" id="devour">Devour it!</button></p>        
         
       {{/each}}
     </form>
   </div>
   <div class="col-xs-8 col-sm-6 col-md-4" id="sign">
-  		<img src="assets/hamburgers.jpg">
+  		<img src="/assets/hamburgers.jpg">
   		<h1>Eat-Da-Burger!</h1></div>
   <div class="col-md-4 col-md-4 col-md-4"></div>
 </div>
