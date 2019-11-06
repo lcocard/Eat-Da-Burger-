@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(201, 178, 62);
+    font-family: 'McLaren', cursive;
+}
+
+h1 {
+	font-family: 'McLaren', cursive;
+	color: rgb(228, 74, 74);
+}
+
+img {
+    width: 25%;
+}
