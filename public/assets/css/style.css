@@ -1,13 +1,26 @@
 body {
-    background-color: rgb(201, 178, 62);
+    background-color: rgb(201, 145, 62);
     font-family: 'McLaren', cursive;
+    margin: 10px;
 }
+
+.jumbotron {
+    background-color: #884225;
+    height: 12vw;
+  }
 
 h1 {
-	font-family: 'McLaren', cursive;
-	color: rgb(228, 74, 74);
+    font-family: 'McLaren', cursive;
+    background-color: #884225;
+    color: rgb(201, 145, 62);
+    margin-top: 30px;
+    padding: 10px;
 }
 
-img {
-    width: 25%;
+* {
+    background-color: #FBF6C3;
+    margin: 10px;
+}
+button {
+    margin: 10px;
 }
