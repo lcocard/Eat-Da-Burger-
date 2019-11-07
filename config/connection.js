@@ -9,10 +9,11 @@ else{
 connection = mysql.createConnection({
   host: "localhost",
   user: "root",
+  port: 3306,
   password: "WkmGry}@[h639hFNTy6Mo4?(",
   database: "burgers_db"
   });
-//}
+}
 
 // Make connection.
 connection.connect(function (err) {

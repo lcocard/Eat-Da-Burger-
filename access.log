@@ -78,3 +78,5 @@
 ::1 - - [07/Nov/2019:04:49:16 +0000] "GET / HTTP/1.1" 302 60 "http://localhost:3000/burgers" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
 ::1 - - [07/Nov/2019:04:49:16 +0000] "GET /burgers HTTP/1.1" 200 2113 "http://localhost:3000/burgers" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
 ::1 - - [07/Nov/2019:04:51:43 +0000] "GET /burgers HTTP/1.1" 200 2125 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+::1 - - [07/Nov/2019:07:04:52 +0000] "GET / HTTP/1.1" 302 60 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
+::1 - - [07/Nov/2019:07:04:52 +0000] "GET /burgers HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36"
